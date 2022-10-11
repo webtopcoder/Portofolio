@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="style.css">
 
     <!-- Logo -->
-    <link rel="shortcut icon" href="img/logo.png" type="image/png">
+    <link rel="shortcut icon" href="img/flogo.png" type="image/png">
 
     <!--Google Font-->
 
@@ -49,7 +49,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-item" href="#">Elv<span class="span">fi</span></a>
+        <a class="navbar-item" href="#">Jose<span class="span">Bradon</span></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -84,7 +84,7 @@
         <div class="container-fluid text">
           <h2 class="display-4">about & contact</h2>
           <h1 class="h1">Hi, I’m <span class="span elvina typed-text"></span><span class="cursor">&nbsp;</span></h1>
-          <h3 class="lead">UI/UX Designer and Web Developer</h3>
+          <h3 class="lead">Senior Full Stack Developer</h3>
           <!-- Sosial Media -->
               <div class="sosial-media">
                 <!-- Instagram -->
@@ -111,7 +111,9 @@
           <div class="col-lg-6 col-md-12 justify-content-center d-flex align-items-center">
             <div class="text-capitalize text-about">
               <h1>About <span>Me</span></h1>
-              <p>I’m Elvina Firmansyah who is 14 y.o. I'm from Indonesia, I'm interested to be a Fullstack developer. I'm currently learning Js and UI/UX that also make a new thing of the world, probably the carrer and my experience of my future</p>
+              <p>I’m Jose Brandon who is 29 y.o. I'm from Hong Kong, I'm a senior Fullstack developer. I'm currently learning Js and UI/UX that also make a new thing of the world, probably the carrer and my experience of my future
+                I like to build amazing and interesting things that matter. Have years of hands-on experience efficiently coding websites and mobile applications using modern Javascript, Typescript, Python, PHP, Ruby frameworks, and beautiful UI frameworks.
+              </p>
             </div>
           </div> 
           <div class="col-lg-6 col-md-12 justify-content-center d-flex align-items-center">
@@ -158,7 +160,7 @@
           <a href="https://vinaquote.netlify.app/" target="blank" ><img src="img/web6.png" class="d-block w-85 img-fluid" alt="Quote"></a>
         </div>
         <div class="carousel-item justify-content-center d-flex">
-          <a href="https://dribbble.com/shots/16344929-Dierex-Electro-Chat-Fast-and-Easy-for-You" target="blank" ><img src="https://cdn.dribbble.com/users/8652445/screenshots/16344929/media/d96119dbe827da774056b646ea4f98ee.png" class="d-block w-85 img-fluid" alt="..."></a>
+          <a href="https://dribbble.com/shots/16344929-Dierex-Electro-Chat-Fast-and-Easy-for-You" target="blank" ><img src="img/web6.png" class="d-block w-85 img-fluid" alt="..."></a>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -192,12 +194,12 @@
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="main-card">
-              <img src="img/hlogo.png" class="rounded" alt="...">
+              <img src="img/react.png" class="rounded" alt="...">
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="main-card">
-              <img src="img/clogo.png" class="rounded" alt="...">
+              <img src="img/js.png" class="rounded" alt="...">
             </div>
           </div>
         </div>
@@ -255,7 +257,7 @@
         <div class="row justify-content-center d-flex row-testi">
           <div class="col-lg-5 one">
               <i class="fas fa-quote-left fa-4x"></i>
-              <h4>work with alena is such a happiness for me. She is very humble, smart and helpful.  I recommended her to you guys who needs a design stuff.</h4>
+              <h4>work with Jose is such a happiness for me. He is very humble, smart and helpful.  I recommended him to you guys who needs a web developer.</h4>
               <h2>Audie Canrbre</h2>  
           </div>
           <div class="col-lg-5 two">
@@ -320,10 +322,7 @@
         <a class="text-dark fs-6" href="https://www.buymeacoffee.com/elvinafirmh">@2022 Copyright</a>
       </div>
       <!-- Buy Me A Coffee -->
-      <div class="text-center p-3 footer">
-        <i class="bi bi-cup-straw fs-5"></i>
-        <a class="text-dark fs-6" href="https://www.buymeacoffee.com/elvinafirmh" target="_blank">Buy me a Coffee</a>
-      </div>
+    -->
     </footer>
     <!-- A Footer -->
 
@@ -402,7 +401,7 @@
       const typedTextSpan = document.querySelector(".typed-text");
       const cursorSpan = document.querySelector(".cursor");
 
-      const textArray = ["Elvina"];
+      const textArray = ["Jose Brandon"];
       const typingDelay = 100;
       const erasingDelay = 100;
       const newTextDelay = 2500; // Delay between current and next text
